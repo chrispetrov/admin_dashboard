@@ -1,0 +1,4 @@
+Za podgotovka posle kolokvium 
+Koristenje flexbox i grid displays
+
+vezba za TOP
