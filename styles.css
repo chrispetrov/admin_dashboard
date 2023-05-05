@@ -38,3 +38,20 @@ span[name='dash']{
     grid-template-rows: 20% 80%;
     grid-template-columns: 100%;
 }
+#cat{
+    border-radius: 40%;
+    width: 40px;
+    object-fit: cover;
+}
+input{
+    width: 30%;
+    height: 30px;
+    border-radius: 12px;
+    border-collapse: collapse;
+    background-color: rgb(206, 197, 197);
+}
+header{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
