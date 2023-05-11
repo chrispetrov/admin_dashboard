@@ -7,6 +7,7 @@ body{
     background-color: rgb(167, 189, 189);
     display: flex;
     flex-direction: row;
+    font-family: sans-serif;
 }
 .sidebar{
     width: 18vw;
@@ -44,14 +45,100 @@ span[name='dash']{
     object-fit: cover;
 }
 input{
-    width: 30%;
+    
     height: 30px;
     border-radius: 12px;
     border-collapse: collapse;
-    background-color: rgb(206, 197, 197);
+    background-color: rgb(230, 224, 224);
+    text-align: start;
+    width:54vw;
+    padding: 2px;
 }
 header{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 40% 60%;
+    box-shadow: 0 0px 12px  #464545;
+    z-index: 2;
+}
+header .top{
+    display: grid;
+    grid-template-columns: 5vw 55vw 5vw 2vw 8vw;
+    align-items: center;
+    justify-items: center;
+}
+header .bottom{
+    display: grid;
+    grid-template-columns: 5vw 55vw 5vw 5vw 5vw;
+    
+    
+}
+.bottom #cat{
+    align-self: center;
+    justify-self: center;
+}
+fieldset{
+    border: 0;
+    align-self: center;
+    font-size: 25px;
+}
+legend{
+    font-size: 15px;
+}
+.bottom button{
+    align-self: center;
+    border-radius: 20%;
+    background-color: rgb(56, 112, 197);
+    padding: 10px;
+    margin: 10px;
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.area{
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(166, 163, 168);
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    font-size: 26px;
+    font-weight: 700;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.Yp{
+    grid-column-start: span 2;
+}
+.box.project{
+    background: linear-gradient(90deg, whitesmoke, rgb(216, 215, 215));
+    padding: 20px;
+    border-radius: 3%;
+    grid-row-start: span 2;
+}
+.box:hover{
+    border: 2px solid black;
+}
+p{
+    font-size: large;
+}
+.box.ann{
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10%;
+    grid-row-start: span 3;
+    background: linear-gradient(90deg,  rgb(216, 215, 215),rgb(155, 154, 154));
+    border-radius: 3%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+hr{
+    margin: 2%;
+    color: black;
+    border: 1px solid black
+}
+.side:hover{
+    background-color: rgb(165, 221, 188);
 }
